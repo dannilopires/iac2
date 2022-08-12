@@ -18,10 +18,10 @@ cd /tmp
 
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 
-cp -R linux-site-dio-main /var/www/html
+unzip main.zip
 
+cd linux-site-dio-main
 
-
-
+cp -R * /var/www/html
 
 
